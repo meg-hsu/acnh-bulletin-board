@@ -1,16 +1,31 @@
+/** 
+    Dialogue font: RodinBokutoh Pro EB
+    Source: https://archive.org/download/Fontworks/Fonts/
+**/
+
+@font-face{
+    font-family: 'Tacoma';
+    font-style: normal;
+    src: local('./fonts/FOT-RodinBokoutoh Pro EB.otf');
+}
+
 * {
     padding: 0;
     margin: 0;
 }
 
+/**
+    Background image source: https://imgflip.com/memetemplate/300352025/Isabelles-Announcement
+**/
+
 body{
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-image: url("./isabelle-announcement-test.jpg");
+    background-image: url("./images/isabelle-announcement-test.jpg");
     background-repeat: no-repeat;
     background-position: center; 
-    background-color: rgb(174, 197, 145);
+    background-color: rgb(137, 202, 162);
 }
 
 img{
@@ -30,6 +45,10 @@ table{
 
 .task{
     display: flex;
-    margin: 20px;
     text-align: left; 
+    margin-top: 10px;
+}
+
+.tasktext{
+    margin-left: 10px;
 }
