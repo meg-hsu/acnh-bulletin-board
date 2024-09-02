@@ -1,0 +1,10 @@
+{
+    "name": "Animal Crossing Bulletin Board: New Tab Dashboard",
+    "version": "1.0",
+    "description": "Animal Crossing Bulletin Board: New Tab Dashboard",
+    "permissions": ["storage"],
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    "manifest_version": 3
+  }
